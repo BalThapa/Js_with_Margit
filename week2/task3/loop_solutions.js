@@ -74,10 +74,23 @@ while (index !=0) {
 
 //Make a program that asks 25 numbers form the user. In the end program prints out average of the numbers.
 
-for (let i=1; i <= 25; i++) {
-  let i=Number(prompt("enter random number"));
-  console.log('i');
-}
+let i;
+  sum = 0
+  count = 0;
+
+ for (let i = 1; i <= 25; i++) {
+  let i = Number(prompt("enter random number"));
+  console.log('i');  
+  sum += i;
+  count++;
+  }
+  let Average = sum/count;
+  console.log(sum);
+  console.log(count);
+  console.log(Average);
+
+
+
 
 // Make a program that ask first one number from the user. After that the program asks: ”Do you want to continue giving numbers?(y/n)”. If user answers y, the program continues to ask another number. If user answers n, program ends. In the end program prints out average of the numbers.
 
