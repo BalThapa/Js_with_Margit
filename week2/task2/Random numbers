@@ -1,0 +1,19 @@
+function randomNumbers() {
+    let a=Number(prompt("enter first number"));
+    let b=Number(prompt("enter second number"));
+    let c=Number(prompt("enter third number"));
+
+    if (a>=0 && b>=0 && c>=0) {
+        console.log(a*b*c);
+        console.log(`sum is ${a+b+c}`);
+
+    }else if  (a>=0|| b>=0|| c>=0) {
+       console.log(a+b+c); 
+       console.log(`product is ${a*b*c}`);
+
+    }else{
+       console.log("only negatives") 
+    }
+        
+    
+}randomNumbers();
