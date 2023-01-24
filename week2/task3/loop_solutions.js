@@ -54,15 +54,23 @@ console.log('There was', even, 'even number');
 //Make a program that asks numbers from the user, until user gives 0 and then program ends. In the end program prints out average of the numbers.
 
 let index;
+let sum = 0;
+let count = 0;
+
 while (index !=0) {
   index=Number(prompt("enter any number"));
-
-  if (index==0){
-    console.log('index 0 - game over');
-    break;
+  if (index == 0){
+    console.log('0 index')
   }
+  sum += index;
+  count++;
+  }
+  let average = sum/count;
+  console.log(sum);
+  console.log(count);
+  console.log(average);
 
-}
+
 
 //Make a program that asks 25 numbers form the user. In the end program prints out average of the numbers.
 
@@ -83,7 +91,7 @@ while (easy = true) {
   console.log('input');
 
   if (easy == false) {
-    console.log( false - gameover);
+    console.log( 'false - gameover');
     break;
 
   }
