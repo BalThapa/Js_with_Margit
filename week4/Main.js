@@ -4,6 +4,7 @@ const color1 = document.querySelector('#color1');
 const color2 = document.querySelector('#color2');
 
 const directions = document.querySelectorAll(`input[name="direction"]`) 
+// cssCode come from javascript°
 
 const text = document.querySelector(`#cssCode`)
 
