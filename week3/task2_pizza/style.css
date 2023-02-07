@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', sans-serif;
+    
+}
+
+header{
+    background-color: gold;
+    color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;   
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: firebrick;
+}
+
+#hero-banner {
+    height: 75vh;
+    background: url("https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")no-repeat center center/cover;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+}
+h2{
+    font-size: 5rem;
+}
+p{
+    padding: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+    
