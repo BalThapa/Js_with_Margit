@@ -25,7 +25,7 @@ const clickCircle = (i) => {
   if (i !== active) {
     return endGame()
   }
-
+  rounds -= 1
   score += 10
   scoreSpan.textContent = score
 }
@@ -39,7 +39,7 @@ const enableCircles = () => {
 const startGame = () => {
   const startSound = new Audio('frog_quak-81741 copy.mp3');
   startSound.play()
-  if (rounds >= 10) {
+  if (rounds >= 3) {
   return endGame()
   }
   
